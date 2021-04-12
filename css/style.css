@@ -1,0 +1,48 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+
+:root{
+    --primary-color: #0068FF;
+    --dark-color:black;
+    --light-color:#ecf0f1;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a:link {
+    color:#384047;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+ul{
+    display: flex;
+    color: black;
+}
+
+li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.showcase-img{
+    background-image: url(../img/cn-tower-cropped2.jpg);
+    min-height: 200px;
+    padding: 80px;
+}
+
+#buttonContact{
+    background-color:#0274be;
+    border-radius: 2px;
+    padding: 10px 40px;
+}
+
+.showcase-text{
+    padding: 80px;
+}
