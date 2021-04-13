@@ -31,18 +31,26 @@ li{
     list-style-type: none;
 }
 
+#btn-freeQuote{
+    padding: 5px 40px;
+}
+
 .showcase-img{
     background-image: url(../img/cn-tower-cropped2.jpg);
-    min-height: 200px;
+    min-height: 150px;
     padding: 80px;
 }
 
 #buttonContact{
-    background-color:#0274be;
+    background-color: var(--primary-color);
     border-radius: 2px;
     padding: 10px 40px;
 }
 
 .showcase-text{
     padding: 80px;
+}
+
+.gg-map{
+    margin-left: 15px;
 }
